@@ -30,4 +30,4 @@
  ##Diagrama de Flujo de "Valid Credit Card"     
  
  
- ![Diagrama de Valid Credit Card](./assets/images/credicart.jpg)
+ ![Diagrama de Valid Credit Card](./assets/images/creditcard.jpg)
