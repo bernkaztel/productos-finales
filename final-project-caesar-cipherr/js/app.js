@@ -37,23 +37,24 @@ var cipher = function (textToBeCiphered)
             //Vamos introduciendo las letras cifradas dentro de la variable
             cipheredText += newLetter;
             }
-    //La función regresa el texto cifrado. 
-    return cipheredText;
+    //La función regresa el texto cifrado.
+    alert("Tu texto cifrado es " + cipheredText)
+    return (cipheredText);
     }
 };
 
 //Llamamos a la función 
-console.log(cipher(userInput));
-
+var result = cipher(userInput);
 
 
 //Función Decipher 
 
 //Por medio de un prompt, pedimos al usuario que coloque la frase que será decifrada.
-var userInput2 = prompt("Coloca aquí el texto que vas a decifrar");
+
 
 var decipher = function (textToBeDeciphered) 
 { 
+    console.log(textToBeDeciphered);
     // Revisamos si lo que introdujo el usuario no tiene una longitud de cero, y si su tipo es diferente a string. 
     if (textToBeDeciphered.length === 0 && textToBeDeciphered !== "string" ) 
     { 
@@ -87,9 +88,9 @@ var decipher = function (textToBeDeciphered)
             decipheredText += newLetter;
             }
     //La función regresa el texto decifrado. 
-    return decipheredText;
+    return alert("Tu texto decifrado es " + decipheredText);
     }
 };
 
 //Llamamos a la función 
-console.log(decipher(userInput2));
+(decipher(result));

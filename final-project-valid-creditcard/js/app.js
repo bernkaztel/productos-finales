@@ -102,4 +102,4 @@ var validCreditCard = function (cardNumber)
                 return message;
                 };
 var userinput = prompt("Coloca aquí el número de tu tarjeta");
-console.log(validCreditCard(userinput));
+document.write(validCreditCard(userinput));
