@@ -22,4 +22,4 @@
  
  Link:  https://ibb.co/ejiuY6
  
- ![Diagrama de Valid Credit Card](https://ibb.co/ejiuY6)
+ ![Diagrama de Valid Credit Card](/assets/images/CREDITCARD.jpg)
