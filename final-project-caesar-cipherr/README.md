@@ -15,7 +15,7 @@
 
 ## Diagrama de Cipher 
 
-![Diagrama de Cipher](https://ibb.co/jygsLm)
+![Diagrama de Cipher](/assets/images/cipher1.jpg)
 
 
 
@@ -37,4 +37,4 @@
 
 ##Diagrama de Decipher
 
-![Diagrama de Decipher](productos-finales/final-project-caesar-cipherr/assets/images/decipher.jpg)
+![Diagrama de Decipher](/assets/images/decipher.jpg)
