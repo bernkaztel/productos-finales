@@ -15,6 +15,7 @@
 
 ## Diagrama de Cipher 
 
+Link: https://ibb.co/jygsLm 
 ![Diagrama de Cipher](/assets/images/cipher1.jpg)
 
 
@@ -37,4 +38,5 @@
 
 ##Diagrama de Decipher
 
+Link: https://ibb.co/nBRsLm 
 ![Diagrama de Decipher](/assets/images/decipher.jpg)

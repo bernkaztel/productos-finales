@@ -33,8 +33,12 @@ var validCreditCard = function (cardNumber)
              for (var i =0; i < pairReversedCardNumbers.length; i++) 
                 {   //Multiplicamos todos los números del nuevo array por dos.
                     var multiplyForTwo = pairReversedCardNumbers[i] * 2
+                    if (multiplyForTwo < 10) 
+                        {
+                         pairReversedCardNumbers[i] = multiplyForTwo;
+                        }
                     //Verificamos si  el resultado de la multiplicación es mayor a diez.
-                    if (multiplyForTwo >= 10) 
+                    else  if (multiplyForTwo >= 10) 
                         {
                             //Creamos un nuevo array que contendrá los números que son mayores a diez.
                             var greaterThanTen = []; 
@@ -47,13 +51,26 @@ var validCreditCard = function (cardNumber)
                               var num2  = parseInt(stringGreaterThanTen.charAt(1));
                               //Sacamos la suma de ambos
                               var sumNumbers = (num1 + num2);
+                              pairReversedCardNumbers[i] = (sumNumbers);
                                 }
                         }
+                //Sumamos el array que contiene los números en posición par, después de las sustituciones.
+                 var sumPairPosition = pairReversedCardNumbers
+                //Sumamos el array que contiene los números en posición impar.
+                var sumEvenPosition=  "";
+                //Sumamos ambos arrays
+                var sumResult = "";
+                // Verificamos con un If si la suma de ambos números es divisible entre 10. 
+                if (sumResult % 10 === 0) 
+                    {
+                        return true;
+                    }
+                    else 
+                    {
+                        return false;
+                    }
                 }
         
-                }
-
-
-    
+                };
 var userinput = prompt("Coloca aquí el número de tu tarjeta");
 console.log(validCreditCard(userinput));
