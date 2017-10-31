@@ -22,8 +22,8 @@
 
 ##Pseudocódigo de Decipher 
 
-1. Creación de una variable que contenga un prompt, en el que se pida al usuario una frase que posteriormente será decifrada.  
-2. Con un "If" debemos de comprobar si lo que el usuario introdujo mediante el promptno sea un string vacío y cuyo "typeof" no sea diferente a  "string".  Si lo es, deberá de devolver un mensaje de "Input no válido" y si cumple con las condiciones, se ejecutarán los siguientes pasos: 
+1. Se debe de tomar el resultado de la función anterior, creando una nueva variable e introducir ese resultado como parámetro de la función. 
+2. Con un "If" debemos de comprobar que el parámetro no sea un string vacío y cuyo "typeof" no sea diferente a  "string".  Si lo es, deberá de devolver un mensaje de "Input no válido" y si cumple con las condiciones, se ejecutarán los siguientes pasos: 
 4. Creación de  la variable donde irá el resultado. Es decir, el texto ya decifrado. 
 5. Utilización de un "for" que vaya recorriendo cada uno de los carácteres del texto cifrado. 
 6. Obtención, mediante "charCodeAt", del código del carácter ASCII del carácter que va interándose por medio del "for".  
