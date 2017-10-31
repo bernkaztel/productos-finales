@@ -13,10 +13,19 @@
 12. Convertimos a los números dentro de aquél array en string. 
 13. Creamos ambos valores que deben de ser sumados, y les colocamos "parseInt" para convertirlos en numeros. 
 14. Sacamos la suma de ambos. 
-15. Sustituimos los números obtenidos por medio de la multiplicación, y por medio de la suma de ambos dígitos en los números de la tarjeta. 
-16. Sumamos todos los números de la tarjeta. 
-17. Verificamos si la suma de esos númros es divisible entre diez. 
-18. La función debe de retonar true en caso de que lo sea, y false en caso de que no sea divisible. 
+15. Sustituimos los números obtenidos por medio de la multiplicación, y por medio de la suma de ambos dígitos en el array de números pares. 
+16. Creamos un nuevo array que contenga los números no pares del número de tarjeta. Llenamos el array con un for que iterará los números de la tarjeta y solo se detendrá en los números de posición par. 
+17. Convertimos el array de no pares a string. 
+18. Creamos la variable que guardará la suma de los números no pares. 
+19. Creamos la variable del elemento que irá iterando el  for y convertimos el tipo de elemento en número. 
+20. Añadimos el elemento que está iterándose a la variable de suma ya declarada.
+21. Creamos la variable que guardará la suma de los elementos pares. 
+22. Creamos un for que vaya iterando por todos los elementos del array de números pares. 
+23. Sumamos cada uno de los elementos que vaya iterando el for y los introducimos en la suma de elementos pares. 
+24. Sumamos el resultado de la suma de elementos pares e impares.
+25. Creamos la variable que contendrá el mensaje que devolverá la función. 
+26. Hacemos un if que compruebe si la suma es divisible entre 10.  Si lo es, el mensaje que se devolverá es "Es válida", si no lo es, el mensaje que se devolverá es "No es válida". 
+
 
  ##Diagrama de Flujo de "Valid Credit Card"     
  
