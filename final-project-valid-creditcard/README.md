@@ -20,6 +20,5 @@
 
  ##Diagrama de Flujo de "Valid Credit Card"     
  
- Link:  https://ibb.co/ejiuY6
  
  ![Diagrama de Valid Credit Card](./assets/images/credicart.jpg)
