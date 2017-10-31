@@ -20,4 +20,4 @@
 
  ##Diagrama de Flujo de "Valid Credit Card" 
 
- ![Diagrama de Valid Credit Card](https://imgur.com/EOSST9t)
+ ![Diagrama de Valid Credit Card](https://ibb.co/ejiuY6)

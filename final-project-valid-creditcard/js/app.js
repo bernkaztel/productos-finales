@@ -55,5 +55,5 @@ var validCreditCard = function (cardNumber)
 
 
     
-
-console.log(validCreditCard("1,2,3"))
+var userinput = prompt("Coloca aquí el número de tu tarjeta");
+console.log(validCreditCard(userinput));
