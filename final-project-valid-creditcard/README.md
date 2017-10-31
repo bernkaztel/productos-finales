@@ -18,7 +18,9 @@
 17. Verificamos si la suma de esos númros es divisible entre diez. 
 18. La función debe de retonar true en caso de que lo sea, y false en caso de que no sea divisible. 
 
- ##Diagrama de Flujo de "Valid Credit Card" 
+cambio
+
+ ##Diagrama de Flujo de "Valid Credit Card"     
  
  Link:  https://ibb.co/ejiuY6
  
