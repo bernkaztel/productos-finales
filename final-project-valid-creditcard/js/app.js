@@ -7,6 +7,7 @@ var validCreditCard = function (cardNumber)
         {
          //En caso de que esté vacío enviamos un alert diciendo que el input no es válido.
          alert("No has ingresado un input válido");  
+         message = "Inténtalo otra vez";
         }
         //Si no es un string vacío, se sigue ejecutando la función.
         else 
