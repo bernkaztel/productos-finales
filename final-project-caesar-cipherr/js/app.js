@@ -37,19 +37,17 @@ var cipher = function (textToBeCiphered)
             //Vamos introduciendo las letras cifradas dentro de la variable
             cipheredText += newLetter;
             }
-    //La función regresa el texto cifrado.
+    //La función regresa el texto cifrado en forma de un alert.
     alert("Tu texto cifrado es " + cipheredText)
     return (cipheredText);
     }
 };
 
-//Llamamos a la función 
+//Creamos la variable resultado que almacenará el resultado de la función cipher.
 var result = cipher(userInput);
 
 
 //Función Decipher 
-
-//Por medio de un prompt, pedimos al usuario que coloque la frase que será decifrada.
 
 
 var decipher = function (textToBeDeciphered) 
@@ -92,5 +90,5 @@ var decipher = function (textToBeDeciphered)
     }
 };
 
-//Llamamos a la función 
+//Llamamos a la función con el parámetro de la función cipher
 (decipher(result));
